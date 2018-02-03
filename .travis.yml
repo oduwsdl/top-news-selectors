@@ -1,0 +1,15 @@
+language: python
+python:
+  - "3.2"
+# command to install dependencies
+install:
+  - pip install .
+  - pip install pycodestyle
+  - pip install codecov
+  - pip install pytest-cov
+# command to run tests
+script:
+  - pycodestyle .
+  - py.test -s --cov=./
+after_success:
+  - codecov
