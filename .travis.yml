@@ -3,8 +3,7 @@ python:
   - "3.2"
 # command to install dependencies
 install:
-  - pip install .
-  - pip install pytest
+  - pip install -r requirements.txt
   - pip install pycodestyle
   - pip install codecov
   - pip install pytest-cov
