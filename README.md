@@ -17,8 +17,11 @@ A static HTML site parser for parsing the top story titles and URIs for the foll
 This parser is built on [Beautifulsoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) based on the CSS selectors found inside the respective HTML documents.
 These selectors were chosen based on the selectors that were present during the 30 days for the month of **November 2016**.
 
-This package has not been tested beyond the month of November 2016, 11/01/2016 - 11/30/2016.
+This package has not been tested beyond the months of May 2016 to May 2017 (05/01/2016 - 05/31/2017).
 Use at your own risk when going beyond that range.
+The coverage of the parser for a year time range is indicated by the figure below:
+
+![alt selectors_coverage_year](docs/selectors_coverage_year.png)
 
 ## Install
 
