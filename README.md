@@ -1,5 +1,8 @@
 # Top-news-selectors (tns)
 
+[![Build Status](https://travis-ci.org/oduwsdl/top-news-selectors.svg?branch=master)](https://travis-ci.org/oduwsdl/top-news-selectors) 
+[![codecov](https://codecov.io/gh/oduwsdl/top-news-selectors/branch/master/graph/badge.svg)](https://codecov.io/gh/oduwsdl/top-news-selectors)
+
 A static HTML site parser for parsing the top story titles and URIs for the following websites:
 
 - https://www.washingtonpost.com/
